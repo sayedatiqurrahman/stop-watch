@@ -15,7 +15,8 @@ document.getElementById('start').addEventListener('click', function () {
 
     document.getElementById('reset').addEventListener('click', function () {
         clearInterval(countNum);
-        counter.innerText = 0;
+        num = 0;
+        counter.innerText = num;
     })
 })
 
